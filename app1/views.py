@@ -5,7 +5,7 @@ from .models import detail
 from .models import student
 
 def page1(request):
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello all")
 
 def page2(request):
     return HttpResponse("welcome")
